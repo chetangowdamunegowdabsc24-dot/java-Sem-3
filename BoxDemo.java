@@ -1,5 +1,5 @@
 
-import java.util.ArrayList;  // ✅ required import
+import java.util.ArrayList;  
 
 class Box<T> {
     private ArrayList<T> items = new ArrayList<>();
@@ -42,3 +42,4 @@ public class BoxDemo {
         stringBox.displayItems();
     }
 }
+
